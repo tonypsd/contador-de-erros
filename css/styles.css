@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(54, 54, 54);
+  }
+  
+  .botao-container {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Adiciona margem entre os contêineres */
+  }
+
+
+  button {
+    font-size: 100px;
+    padding: 500px 500px;
+    margin-left: 100px; /* Adiciona margem à direita de cada botão */
+    margin-right: 100px; /* Adiciona margem à direita de cada botão */
+    cursor: pointer;
+    border-radius: 50px; /* Define a curvatura dos cantos */
+    background-color: #4CAF50;
+    color: white; /* Cor do texto */
+  }
+
+  button {
+    font-size: 100px;
+    padding: 100px 150px;
+    margin-right: 100px;
+    cursor: pointer;
+  }
+
+  p {
+    margin-bottom: 5px; /* Adiciona margem abaixo do texto */
+    font-size: 16px;
+  }
+
+  footer {
+    color: white; /* Cor do texto */
+    margin-top: 800px; /* Adiciona margem acima do rodapé */
+  }
