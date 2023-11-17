@@ -7,14 +7,18 @@
   <title>Contador de Cliques</title>
 </head>
 <body>
-    <div class="botao-container">
-        <p>DESIGN</p>
-        <button id="contadorBtn">0</button>
-      </div>
-  <span>&nbsp;</span> <!-- Adiciona espaçamento -->
+
+  <div class="botao-container">
+    <div class="imagem-container">
+      <img src="./img/mont.png" alt="Descrição da imagem" id="imagemTroca">
+    </div>
+    <p>DESIGN</p>
+    <button id="contadorBtn" onclick="mudarImagem('./img/mont.png')">0</button>
+  </div>
+
   <div class="botao-container">
     <p>TEXTO</p>
-    <button id="contadorBtn2">0</button>
+    <button id="contadorBtn2" onclick="mudarImagem('./img/mont2.png')">0</button>
   </div>
 
   <footer>
