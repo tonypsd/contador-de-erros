@@ -1,55 +1,68 @@
 body {
-    font-size: 16px;
-    @media screen and (max-width: 600px)  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: rgb(54, 54, 54);
-  }
-  
-  .botao-container {
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px; /* Adiciona margem entre os contêineres */
-  }
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(54, 54, 54);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column; /* Adicionado para orientar os elementos na coluna */
+}
 
-
-  button {
-    font-size: 100px;
-    padding: 500px 500px;
-    margin-left: 100px; /* Adiciona margem à direita de cada botão */
-    margin-right: 100px; /* Adiciona margem à direita de cada botão */
-    cursor: pointer;
-    border-radius: 50px; /* Define a curvatura dos cantos */
-    background-color: #4CAF50;
-    color: white; /* Cor do texto */
-  }
-
-  button {
-    font-size: 100px;
-    padding: 100px 150px;
-    margin-right: 100px;
-    cursor: pointer;
-  }
-
-  img {
-    max-width: 100%;
+@media screen and (max-width: 600px) {
+  body {
     height: auto;
   }
+}
 
-  p {
-    margin-bottom: 5px; /* Adiciona margem abaixo do texto */
-    font-size: 16px;
-  }
+.botao-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px 30px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
-  footer {
-    color: white; /* Cor do texto */
-    text-align: center;
-    margin-top: 100px; /* Adiciona margem acima do rodapé */
-  }
+.imagem-container img {
+  max-width: 100%;
+  height: auto;
+  width: 200px; /* Ajuste o valor conforme necessário */
+}
+
+button {
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 100px;
+  padding: 20px 50px; /* Ajuste o valor conforme necessário */
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+
+a {
+  color: white; /* Define a cor padrão para links */
+  text-decoration: none; /* Remove a sublinhado padrão dos links */
+}
+
+a:hover {
+  color: #4CAF50; /* Define a cor ao passar o mouse sobre o link */
+}
+
+
+footer {
+  
+  color: white;
+  text-align: center;
+  margin-top: 20px; /* Ajuste o valor conforme necessário */
+}
